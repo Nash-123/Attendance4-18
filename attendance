@@ -1,0 +1,185 @@
+wasn't quite comfortable posting at the start henceforth always used to make a documentation of the same for the first few classes. Please do Consider.
+From thereon have been extremely regular with my attendance and my tasks.
+
+Day 4 
+MLOps Summary : 
+-> Recap of previous class concepts.
+-> Concepts of linear Regression Model.
+-> Created an application by implementing Linear Regression Model with a real data set.
+-> in y=b+cx, 'c' is the weight and 'b' is the bias.
+-> reshape () helps to rearrange the number of rows and columns in a 2D array
+-> read_csv() helps to read the dataset file.
+-> LinearRegression() helps in creation of the mind where as fit () helps to train it and predict() helps to predict the value the user name to know.
+-> .coef_ is used to get the coefficient/weight value and . intercept_ is used to get the bias value.
+-> in joblib module "dump" is used to save the file and "Load" is used to open/load the file.
+-> we learned some more concepts of openCV.
+-> created a program to crop and paste the cropped image in the same image like a sticker.
+
+
+Day 5
+MLOps Summary : 
+-> first we learned about the if-else conditions in python and implemented it in the application created in previous class.
+-> then we learned about the while concept and implemented it in the same application.
+-> we learned how the formula inside the linear regression function are made .
+-> learned about the 3 ways of finding error normally used in machine learning which are MSE, MAE and RMSE in which MSE is more frequently used.
+-> Revised the concepts of Linear Regression from previous class.
+-> Learned the Concepts of Multi Linear Regression.
+-> Learned about the training of dataset and how to test the dataset.
+-> Discussed the importance of feature selection in the data set, which is done manually or by a program called lasso method or L1 regularisation.
+
+Idea :
+-> create an application that can predict the future sales of a particular product.
+
+
+Day 6
+MLOps Summary :
+
+-> Feature Selection :-
+-> First we revised and discussed more about the feature selection.
+-> there are 3 methods of feature selection Filter method, Wrapper Method and Embed Method(uses Lasso method) respectively.
+
+-> Filter Method :- 2 ways, correlation and constant respectively.
+-> Correlation in the method in which it says that anything which is correlated with target must be used in predicting for which corr() is used.
+-> Constant is the method in which it says that if the values of any column is constant then the column cannot be used for predicting. Here Variance Threshold concept is used when VarianceThreshold() is used by importing it from feature_selection from sklearn.
+-> if the constant % is in between 95-99% then the constant is called Quasi Constant.
+
+-> Multi Linear Regression :-
+-> when more then one predictors are there we use the concept of Multi Linear Regression.
+-> we first used the feature selection method on the dataset available to sort out the features we will use for the prediction.
+-> then pass them as a list in place of x.
+-> then the remaining process is same as the simple linear regression.
+
+
+
+Day 7
+MLOps Summary :
+
+-> Computer Vision :-
+-> first we learned about the object detection, how the object in a image is identified.
+-> we did a practical on that HarCascade's ready made trained model on face detection.
+-> we enhanced the program by adding the rectangle function of cv2 which would draw a rectangle around the face.
+-> Use of mobile camera as a CCTV using the app IP WebCam available on playstore, which would connect the camera of the phone with the program in the system with a IPV4 Address.
+
+-> Multi Linear Regression :-
+-> Learned some more concepts of feature selection.
+-> learned about the coefficient in Multi Linear Regression, that y = b + c1x1 + c2x2 + c3x3 +.... , Here for every x we have a different coefficient , so the program have to find bias and the coefficient for each of the predictors (x).
+
+Assignment :-
+-> create a counter on how many faces appearing on the screen.
+-> send a mail to the user.
+
+Idea :-
+-> could create a live attendance marking application.
+
+
+Day 8
+MLOps Summary :
+-> first we discussed more about feature selection and learned that in correlation in the value is closer to 1 or -1 then the predictor is highly used for predicting.
+
+->then we learned about the EMBEDDED METHOD in feature selection, in this the model is first trained then we ask the model which predictor can be excluded. This method is more accurate but takes lot of time to train the model if the data set it very big.
+
+->then we learned about the LASSO METHOD / L1 REGULARIZATION this method is used when you want the accuracy like the embedded method but needs to faster, here we import the lasso module from sklearn and pass the predictors, here for a small data set we have to use the alpha keyword with a hit and trial number.
+
+-> then we learned about the concepts and importance of FEATURE ENGINEERING. Now we know that is the predictor value is in string then it will generate an error, for this ONE HOT ENCODING is used where for every different value of that column different column is assigned by which the string value is transformed into integer, which is done by Dummy variable function available.
+
+
+MLOps Summary :
+-> First we discussed some more concepts of Feature selection.
+->then we discussed about the DIMENSIONALITY REDUCTION which is divided into 2 parts which are FEATURE SELECTION and FEATURE EXTRACTION.
+-> FEATURE EXTRACTION is the method in Linear Regression for estimating and eliminating features, which isused to reduce the variables by which the model is optimized due to which the performance of the model is increased with the accuracy of the model.
+-> FEATURE EXTRACTION is further divided into PCA (Principle Component Analysis) which is used to find and eliminate duplicate values which increases the ACCURACY and PERFORMANCE.
+-> OLS (Ordinary Linear Squares) is a method in Linear Regression basically used in FEATURE EXTRACTION for estimating and eliminating features. Here for (y = b + c1x1 + c2x2) bias is a y intercept if x=0, In this we have to use x0 with b otherwise OLS thinks that We don't have bias so we have to add one more variable x0=1.
+-> If the features of the model have greater p-value(probability value) than significance level(0.05 or 5%) then the feature is not considered and are removed and if it is very close to significance level, we consider Adjusted R Square.
+
+
+
+Day 10
+MLOps Summary :
+-> First we Revised all the topic disscussed in the previous session. we deeply discussed how important is the feature selection in terms of performance of our model. we discussed again about the OLS model more clearly, concept behind P_value  and why it should be less than significance level, then we studied about the HYPOTHESIS, NULL HYPOTHESIS and the ALTERNATIVE HYPOTHESIS with many examples.
+
+-> then we learned how to use the GRETL SOFTWARE, how to use graphs in it.
+
+-> Then we started with the concepts of DEEP LEARNING and its differences from MACHINE LEARNING.
+
+->Then we discussed about the topic of computer vision on the topic face recognition created the program and we discussed on how the program works. here images are the data set which we have to contain it in a folder and for more accuracy we have to provide more images with different angles.
+
+-> we tried this program with 3 different examples, 1st to open the web browser when face is recognized, 2nd was to play an audio file on face recognization and 3rd one was to act as a security to unlock the system on redhat linux.
+
+
+
+Day 11
+MLOps Summary :
+Summary:-
+-> First we learned the basic difference between Traditional Ml and Deep Learning.
+->then we discussed about the tensorflow, for tensor datatype we need a module tensorflow.
+-> the we discussed about the difference between numpy and tensorflow module.
+-> Parallel and Distributed computing in CPU and GPU, and we learned why GPU is faster than CPU.
+-> then we discussed about the Lazy Execution and  Eager execution. In lazy Execution the tensor create the graph and store data, operation and output in nodes, which can use every time when needed whereas in Eager Execution the operations are done and outputs are generated as soon as the execution is done
+-> then we discussed the topic of GRADIENT DESCENT,  we learned that it is used to get the minimum error when the value of the weight is reduced is called the gradient descent where the best weight is called gradient descent, where we normally use hit and trial method.
+
+
+
+Day 12
+MLOps Summary :
+-> we learned traditional ML is generally used using scikit-learn and numpy modules whereas in keras module is used for DL. 
+-> the we discussed again the concepts of Lazy and Eager execution using tensorflow and know we know that Keras is built using Tensorflow as a platform.
+-> the we discussed how the human brain works. we discusssed abouth the neural networks of the brain and we compared it with the ANN(Artificial Neural Network), how it uses the the 5 sense organs to take data as the input and our actions using hand, legs, mouth, etc acts as output layer and the internal execution in the brain acts as the hidden layer or black box. The human mind does automatic feature selection tasks by selecting only the relevant features, that's how the DL was designed to the feature selection automatically like the human brain.
+
+Day 13
+MLOps Summary :
+-> first we discussed more about more about the lazy execution, how it is slow but it increases the performance of the program.
+-> then we discussed about the activation function which is related to the Classification method and some popular activation functions.
+-> we learned that perceptron works for a simple linear separable data which is a simple neutral network which is a single layer perceptron which only contain one input node, one hidden mode and one output none.
+-> we discussed about how the hidden layers actually works internally.
+-> we discussed the concepts  of feed-forwarding and back-propagation and it's working, how they help in finding of the perfect weight which is fed to the function for the prediction.
+-> we learned that the hidden layers can handle the non-linear data between the input and the output.
+
+
+Day 14
+MLOps Summary :
+-> we first learned about the DATA VISUALIZATION of the dataset containing latitude and longitude in graphical format, revised the modules of Matplotlib and seaborn.
+-> we discussed about the module FOLIUM, how it helps us in converting the python code in LEAFLET.JS javascript module.
+-> Next in computer vision we discussed about the usage of ready made modules for Detection.
+-> we learned how to install and use the YOLO module and discussed how it works for the detection of the objects.
+-> then we discussed about the INITIALIZERS and the best one was the glorot_normal which is also know as Xavier initializer.
+-> the we discussed about the OSCILLATION ERROR and the LEARNING RATE.
+-> then finally we learned about the TUNING of the program.'
+
+
+Day 15
+MLOps Summary :
+-> we first discussed about the frequency in the dataset and how it can be used to plot a graph.
+->then discussed about the data visualization in graphs. we discussed deeply about the graph available in seaborn. then we learned the uses of different graphs like histogram, barplot, boxplot, striplot, etc.
+-> Then we discussed about the topic of CLASSIFICATION, the discusssed about the 2 types BINARY and MULTI respectively,
+-> then we learned about the uses and importance of LOGISTIC REGRESSION and SIGMOIDAL FUNCTION.
+
+
+Day 16
+MLOps Summary :
+-> We first discussed about the BINARY CLASSIFICATION for which we use SIGMOID FUNCTION and LOGISTIC REGRESSION. then we did the practical using the Titanic Data Set to make classification on weather the person survived or not.
+-> we discussed about the categorical variable for which we plot the bar graph to check the difference.
+-> When there are missing values, to check for the missing value we plot the heatmap where we can find the columns where the data is missing more so we can remove it. 
+-> when there in very less data missing in a column and you want to keep it for feature selection then we can do FEATURE ENGINEERING, by taking the average of the similar data by comparing it with other column and put the average in the missing places.
+-> the average can be found with the excel sheet or the mean() in the pandas or by the boxplot graph.
+
+
+
+Day 17
+MLOps Summary :
+-> first we discussed more deeply on the topic of binary classification, after feature engineering feature engineering on data set by doing one hot encoding on the features like Pclass, Sex, Age, Sibsp, Parch, Embarked and extracting necessary features, etc using the titanic dataset. Then split the data set into training and testing then fit the data set in LogisticRegression function. As in classification we can't do MSE we have a different way called the confusion matrix.
+-> we then learned about the confusion matrix, we discussed about Tp, Tn, Fp and Fn with the examples. Using them we found out the error of the model we created with the titanic model using the classification method.
+
+-> DevOps 2 Summary in DevOps with Assembly lines Day 2 Post.
+
+
+Day 18
+DevOps Summary :
+-> we learned some more concepts of Git, learned a new way to create a repository locally in git and done a quick revision of previous class.
+-> learned how developers and operations team work, learned about silos.
+-> learned how to push a repository from the local git to the git hub, the process we need to follow to do this task.
+-> revised again some if the basic commands used in git and applied it in both windows and redhat linux.
+
+
+
+
+
